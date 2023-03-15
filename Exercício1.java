@@ -26,14 +26,14 @@ public static void main(String[] args) {
 	public static String classificarIMC(float imc) {
 		String[] classificacoes =  {"Magreza", "Normal", "Sobrepeso", "Obesidade", "Obesidade Grave"};
 		double[] intervalos = {0, 18.5, 25, 30, 40, Double.POSITIVE_INFINITY};
-	    int value = -1;
-	    
-	    for (int i = 0; i < intervalos.length - 1; i++) {
-	        if (imc >= intervalos[i] && imc < intervalos[i + 1]) {
-	            value = i;
-	            break;
-	        }
-	    }
+		int value = -1;
+
+		for (int i = 0; i < intervalos.length - 1; i++) {
+			if (imc >= intervalos[i] && imc < intervalos[i + 1]) {
+				value = i;
+				break;
+			}
+		}
 		
 		return classificacoes[value];
 	}
