@@ -1,3 +1,4 @@
+package Faculdade.LinguagensDeProgramaçãoII.Lista;
 import java.util.Scanner;
 
 public class ListaExercicio3 {
@@ -27,6 +28,6 @@ public class ListaExercicio3 {
             media += notas[i];
         }
 
-        return media / 3;
+        return media / 4;
     }
 }
