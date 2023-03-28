@@ -1,4 +1,4 @@
-package Faculdade.LinguagensDeProgramaçãoII;
+package Faculdade.LinguagensDeProgramaçãoII.Exercicios;
 
 import java.util.Scanner;
 
